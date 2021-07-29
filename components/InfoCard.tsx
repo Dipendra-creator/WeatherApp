@@ -10,7 +10,7 @@ const InfoCard = (props: Props) => {
     return(
         <View style={styles.card}>
             <Text style={styles.text}>{props.title}</Text>
-            <Text style={[styles.text, {color: '#adadad'}]}>{props.variable}</Text>
+            <Text style={[styles.text, {color: '#ffffff'}]}>{props.variable}</Text>
         </View>
     )
 }
@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
         minWidth: 150,
     },
     text:{
-        color: '#e0e0e0',
+        color: '#ffffff',
         margin: 5,
         marginLeft: 15,
         fontSize: 18,

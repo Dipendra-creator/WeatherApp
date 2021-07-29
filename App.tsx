@@ -44,7 +44,7 @@ export default function App() {
       width: 20,
       height: 20,
       borderRadius: 50,
-      backgroundColor: darkTheme ? '#232634'  :'#F2F2F2',
+      backgroundColor: darkTheme ? '#232634'  :'#ffffff',
     },
     temperatureView: {
       alignItems: 'center',
@@ -52,7 +52,7 @@ export default function App() {
       marginTop: 10,
     },
     temperatureText: {
-      color: darkTheme ? '#e0e0e0'  : 'black',
+      color: darkTheme ? '#ffffff'  : 'black',
       fontSize: 50,
     },
     cardsView:{
@@ -62,14 +62,14 @@ export default function App() {
       flexDirection: 'row',
     },
     localizationText:{
-      color: darkTheme ? '#e0e0e0'  : 'black',
+      color: darkTheme ? '#ffffff'  : 'black',
     },
     info: {
       alignItems: 'center',
       borderRadius: 20,
       width: 350,
       height: 230,
-      backgroundColor: darkTheme ? '#393e54'  :'#ff5a00',
+      backgroundColor: darkTheme ? '#393e54'  :'#5cbb4b',
 
     },
     infoText: {
